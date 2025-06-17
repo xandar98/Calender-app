@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telegram Calendar App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div class="calendar-container">
+      <h1>📅 My Calendar</h1>
+      <input type="date" id="datePicker">
+      <textarea id="eventText" placeholder="Write your task..."></textarea>
+      <button onclick="saveEvent()">Save</button>
+      <ul id="eventList"></ul>
+    </div>
+  </div>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
